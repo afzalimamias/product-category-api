@@ -1,0 +1,16 @@
+{
+  "name": "rest-api-es6",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/bin/server"
+  },
+  "author": "Afzal Imam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  }
+}
